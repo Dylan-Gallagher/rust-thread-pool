@@ -1,7 +1,7 @@
 pub struct ThreadPool;
 
 impl ThreadPool {
-    pub fn new(_num_threads: i32) -> ThreadPool {
+    pub fn new(size: usize) -> ThreadPool {
         ThreadPool
     }
 
